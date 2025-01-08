@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -195,6 +196,12 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+
+  const achievements = [
+    {
+      title: "Best Developer",
+    }
+  ];
   
   const projects = [
     {
@@ -262,4 +269,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, achievements };
