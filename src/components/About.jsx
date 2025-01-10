@@ -46,11 +46,13 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Nullam sollicitudin a arcu a facilisis. Vivamus sollicitudin 
-      quam quis arcu sodales, a mattis dui posuere. 
-      Mauris dapibus mauris nec magna porttitor cursus. Duis 
-      lectus sapien, tempus ac lobortis sed, ultrices a lectus. 
+      I’m a Master’s student in Computer Science at USC and a former 
+      Software Development Engineer at Ericsson Enterprise Wireless 
+      Solutions (formerly Cradlepoint). My expertise includes building 
+      scalable systems with Django, Spring Boot, Postgres, and DynamoDB, 
+      alongside Kubernetes, Docker, Jenkins CI/CD, and AWS. I’m passionate 
+      about solving complex problems with creative solutions and am 
+      dedicated to continuous learning and making impactful contributions.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

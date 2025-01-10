@@ -21,15 +21,32 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import cpp from "./tech/cpp.png";
+import spring from "./tech/springboot.png";
+import django from "./tech/django.svg";
+import kubernetes from "./tech/kubernetes.png";
+import aws from "./tech/aws_dynamodb.png";
+import postgres from "./tech/postgres.png";
+import linux from "./tech/linux.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ericsson from "./company/ericsson.png";
+import usc from "./company/usc.png";
+import softomatic from "./company/softomatic.png";
+import vit from "./company/vit.png";
+import cp from "./company/cp.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import llama from "./llama.jpg";
+import handsfree from "./handsfree.png";
+import robot from "./robot.png";
 
 export {
   logo,
@@ -42,17 +59,17 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  python,
+  java,
+  cpp,
+  spring,
+  django,
+  kubernetes,
+  aws,
+  postgres,
+  linux,
   meta,
   shopify,
   starbucks,
@@ -61,4 +78,12 @@ export {
   jobit,
   tripguide,
   new_logo,
+  ericsson,
+  usc,
+  softomatic,
+  vit,
+  cp,
+  llama,
+  handsfree,
+  robot,
 };
