@@ -82,14 +82,6 @@ import {
       icon: django,
     },
     {
-      name: "AWS",
-      icon: aws,
-    },
-    {
-      name: "Postgres",
-      icon: postgres,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -100,10 +92,6 @@ import {
     {
       name: "docker",
       icon: docker,
-    },
-    {
-      name: "Kubernetes",
-      icon: kubernetes,
     },
   ];
   
