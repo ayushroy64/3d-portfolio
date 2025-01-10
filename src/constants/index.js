@@ -74,14 +74,6 @@ import {
       icon: cpp,
     },
     {
-      name: "HTML",
-      icon: html,
-    },
-    {
-      name: "CSS",
-      icon: css,
-    },
-    {
       name: "Spring",
       icon: spring,
     },
