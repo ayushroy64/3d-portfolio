@@ -23,13 +23,13 @@ const Ball = ({ imgUrl, isMobile }) => {
       <ambientLight intensity={isMobile ? 0.15 : 0.3} />
       <directionalLight
         position={[0, 1, 1]}
-        intensity={isMobile ? 0.4 : 0.6}
+        intensity={isMobile ? 0.4 : 0.7}
       />
 
-      <mesh castShadow={isMobile ? false : true} receiveShadow scale={isMobile ? 2.3 : 2}>
+      <mesh castShadow={isMobile ? false : true} receiveShadow scale={isMobile ? 2.3 : 2.5}>
         {/* Use simplified geometry for mobile */}
         <icosahedronGeometry args={[1, isMobile ? 0 : 1]} />
-        <meshStandardMaterial color="#fff8eb" flatShading />
+        <meshStandardMaterial color="#fff8ec" flatShading />
         <Decal
           position={[0, 0, 1]}
           rotation={[0, 0, 0]}
